@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #181818;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1DB954; /* Verde característico do Spotify */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #fff;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #b3b3b3;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1DB954; /* Verde do Spotify */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1aa34a; /* Verde mais escuro para hover */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+a {
+    color: #1DB954; /* Verde do Spotify */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
